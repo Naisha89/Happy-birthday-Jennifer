@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Sister</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Trebuchet MS', sans-serif;
+      background: linear-gradient(135deg, #fceabb, #fad0c4, #ffd1ff, #c9ffbf);
+      background-size: 400% 400%;
+      animation: gradientShift 20s ease infinite;
+      color: #444;
+      overflow-x: hidden;
+    }
+
+    @keyframes gradientShift {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    h1 {
+      font-size: 3.5em;
+      color: #d17b88;
+      margin-top: 40px;
+      text-shadow: 2px 2px #fff;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 50px;
+      border-radius: 25px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      display: inline-block;
+      margin: 50px auto;
+      max-width: 800px;
+      position: relative;
+      animation: fadeIn 2s ease;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    p {
+      font-size: 1.3em;
+      line-height: 1.8em;
+      margin: 20px;
+    }
+    
+    /* Floating sunflower animation */
+    .sunflower {
+      position: absolute;
+      font-size: 2.5em;
+      animation: float 6s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% {transform: translateY(0);}
+      50% {transform: translateY(-20px);}
+    }
+    .sunflower1 {top: -40px; left: -40px;}
+    .sunflower2 {top: -40px; right: -40px;}
+    .sunflower3 {bottom: -40px; left: -40px;}
+    .sunflower4 {bottom: -40px; right: -40px;}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="sunflower sunflower1">🌻</div>
+    <div class="sunflower sunflower2">🌻</div>
+    <div class="sunflower sunflower3">🌻</div>
+    <div class="sunflower sunflower4">🌻</div>
+    <h1>Happy Birthday, Sister! 🎉</h1>
+    <p>
+      Hello Dear Sister, I know I am very late to your birthday, but I wanted to do something different, something out of my scope. That’s when I saw someone using this webpage idea and I loved it. So here it is — my belated birthday gift to the best sister in the world.
+    </p>
+    <p>
+      You are my emotional support, my go‑to person, and the one I can share anything with. I may not have something materialistic to give you this time, but I hope this letter becomes a memory of all the moments we’ve shared.
+    </p>
+    <p>
+      May this year bring you happiness, peace, and all the love you deserve. And yes, I’m keeping an open mind for a niece or nephew too! 🌸
+    </p>
+    <p>— With love, Naisha</p>
+  </div>
+</body>
+</html>
